@@ -1,0 +1,159 @@
+html {
+   font-size: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  background-color: #333333;
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.calc {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #324159;
+  background: linear-gradient(to bottom right, #324159, #253041);
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #111111;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 260px;
+  height: 60px;
+}
+
+.title {
+  padding-right: 10px;
+  font-size: 1rem;
+  text-shadow: 2px 2px 3px #111111;
+}
+
+.info {
+  padding-left: 10px;
+  font-size: 0.8rem;
+  text-shadow: 2px 2px 3px #111111;
+}
+
+.solar {
+  display: flex;
+  width: 80px;
+  height: 20px;
+  background-color: #001a00;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 0px #253041;
+  > div {
+    width: 20px;
+    height: 20px;
+    border-left: 2px solid black;
+    &:first-child {
+      border-left: none;
+    }
+  }
+}
+
+.wrap {
+  position: relative;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+}
+
+.back-numbers {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.05);
+  top: 6px;
+  left: 32px;
+}
+
+.back-numbers2 {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.05);
+  top: 50px;
+  left: 17px;
+  font-size: 0.8rem;
+}
+
+.screen {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  height: 43px;
+  width: 250px;
+  padding: 2px 3px;
+  background-color: #bbccbc;
+  color: black;
+  border: 5px solid #253041;
+  border-radius: 8px;
+}
+
+.calc-display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -7px;
+  margin-bottom: 15px;
+  font-size: 0.8rem;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+button {
+  height: 46px;
+  width: 56px;
+  color: white;
+  background-color: #AAAAAA;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: 'gotham rounded', sans-serif;
+  text-shadow: 1px 1px 3px #111111;
+  border-width: 2px 3px 3px 2px;
+  border-color: #999999;
+  border-radius: 10px 10px 20px 20px;
+  cursor: pointer;
+}
+
+.utility {
+  background-color: #ed4964;
+  border-color: #a50d30;
+  font-size: 1.3rem;
+}
+
+.operator {
+  background-color: #222222;
+  border-color: #444444;
+}
+
+.ce {
+  background-color: #68cc9b;
+  border-color: #39ac75;
+  font-size: 1.3rem;
+}
+
+.flip {
+  transform: rotate(180deg);
+}
+
+.flip-button {
+  width: 100px;
+  margin: 15px 0 0 100px;
+  background: red;
+  text-shadow: 1px 1px 3px #111111;
+  border-width: 2px 3px 3px 2px;
+  border-color: #999999;
+  border-radius: 10px 10px 10px 10px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: 'gotham rounded', sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
