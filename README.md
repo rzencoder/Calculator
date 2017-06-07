@@ -10,8 +10,6 @@ Built using:
   * CSS
   * HTML
   
-**Objective 1:** I can add, subtract, multiply and divide two numbers.
+**Objective 1:** I can reset the clock for my next pomodoro.
 
-**Objective 2:** I can clear the input field with a clear button.
-
-**Objective 3:** I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output.
+**Objective 2:** I can customize the length of each pomodoro.
