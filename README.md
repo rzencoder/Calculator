@@ -10,6 +10,6 @@ Built using:
   * CSS
   * HTML
   
-**Objective 1:** I can reset the clock for my next pomodoro.
+**Objective 1:** I can add, subtract, multiply and divide two numbers.
 
-**Objective 2:** I can customize the length of each pomodoro.
+**Objective 2:** I can clear the input field with a clear button.
